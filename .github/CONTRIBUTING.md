@@ -114,7 +114,7 @@ Once you have finished working on an issue, you can submit a pull request to hav
 
 Before submitting a pull request, make sure that there are no linting problems (`npm run lint`), all tests pass (`npm test`), and your branch is up to date. Its also a good idea to join the TypeDoc [Gitter] room to discuss how best to implement changes.
 
-Please do not change the project version number in a pull request.
+Please do not change the project version number in a pull request unless submitting a patch to the `lts` branch.
 
 ## Updating Your Branch
 
