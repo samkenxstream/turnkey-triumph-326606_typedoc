@@ -64,7 +64,7 @@
     "build:prod": "tsc --project . --sourceMap false",
     "build_and_test": "npm run build && npm run test",
     "lint": "eslint . && prettier --check .",
-    "prepublishOnly": "node scripts/set_strict.js false && npm run build:prod && npm test",
+    "prepublishOnly": "node scripts/set_strict.js false && npm run build:prod",
     "postpublish": "node scripts/set_strict.js true",
     "clean": "rm -rf node_modules package-lock.json lib coverage"
   },
